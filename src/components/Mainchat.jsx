@@ -23,7 +23,7 @@ export default function Mainchat({
     useEffect(() => {
         const setMessages = async () => {
             try {
-                socket = io("http://localhost:4004")
+                socket = io(process.env.REACT_APP_SOCKET_URL)
                 socket.on("connect", () => {
                     setSocketState(true)
                 })
