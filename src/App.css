@@ -159,8 +159,12 @@ nav {
 
 .chat-submit-btn {
   /* height: 30px; */
+  margin-left: 10px;
   width: 20%;
+  background-color: black;
+  color: white;
   /* padding: 10px 20px; */
+  border-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: none;
@@ -234,7 +238,7 @@ nav {
 }
 
 .message.own .message-text {
-  background-color: #d0d3e3;
+  background-color: #dcdfec;
 }
 
 /* Welcome Component */
